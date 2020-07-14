@@ -1,0 +1,9 @@
+POSIX tar archive (GNU)
+
+Сборка:
+gcc
+
+Использование:
+mytar -c archive.tar files # Create archive.tar from files
+mytar -x archive.tar       # Extract all files from archive.tar
+mytar -t archive.tar       # List all files in archive.tar
